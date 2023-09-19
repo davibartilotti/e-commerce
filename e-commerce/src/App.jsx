@@ -1,18 +1,14 @@
-import NavBar from './components/NavBar.jsx';
-import CardProdutos from './components/CardProdutos.jsx'
+import NavBar from './components/NavBar';
 import './App.css';
+import Conteudo from './Conteudo'
 
 
 function App() {
-
   return (
-    <>
+    <div className="App">
       <NavBar />
-      <div>
-        <h1>Página Inicial</h1>
-      </div>
-      <CardProdutos />
-    </>
+      <Conteudo />
+    </div>
   )
 }
 
